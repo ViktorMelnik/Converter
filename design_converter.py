@@ -87,13 +87,14 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
+        
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Converter"))
         self.l_equal.setText(_translate("MainWindow", "="))
-        self.pushButton.setText(_translate("MainWindow", "Convert"))
+        self.pushButton.setText(_translate("MainWindow", "&Convert"))
         self.l_1.setText(_translate("MainWindow", "Enter a number"))
         self.l_2.setText(_translate("MainWindow", "sn"))
-        
+      
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)

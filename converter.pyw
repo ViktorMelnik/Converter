@@ -25,7 +25,7 @@ class Convertor(QtWidgets.QMainWindow):
             error_msg.setIcon(error_msg.Warning)
             error_msg.exec() 
             
-print(QtGui.qApp.argv())            
+     
 if __name__=="__main__":
     app = QtWidgets.QApplication(sys.argv)
     app_convertor = Convertor()
